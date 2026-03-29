@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.001096] (-) JobUnselected: {'identifier': 'autodrive_roboracer'}
+[0.001496] (ftg_algorithm) JobQueued: {'identifier': 'ftg_algorithm', 'dependencies': OrderedDict()}
+[0.001576] (ftg_algorithm) JobStarted: {'identifier': 'ftg_algorithm'}
+[0.099521] (-) TimerEvent: {}
+[0.200173] (-) TimerEvent: {}
+[0.300662] (-) TimerEvent: {}
+[0.401293] (-) TimerEvent: {}
+[0.501954] (-) TimerEvent: {}
+[0.602473] (-) TimerEvent: {}
+[0.704145] (-) TimerEvent: {}
+[0.804643] (-) TimerEvent: {}
+[0.905141] (-) TimerEvent: {}
+[1.005647] (-) TimerEvent: {}
+[1.106172] (-) TimerEvent: {}
+[1.206845] (-) TimerEvent: {}
+[1.307420] (-) TimerEvent: {}
+[1.407931] (-) TimerEvent: {}
+[1.508437] (-) TimerEvent: {}
+[1.512205] (ftg_algorithm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ftg_algorithm', 'build', '--build-base', '/home/autodrive_devkit/build/ftg_algorithm/build', 'install', '--record', '/home/autodrive_devkit/build/ftg_algorithm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/autodrive_devkit/src/ftg_algorithm', 'env': {'HOSTNAME': 'zen', 'GIT_ASKPASS': '/root/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/home/autodrive_devkit/src/ftg_algorithm/ftg_algorithm', 'TERM_PROGRAM_VERSION': '1.113.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a0008162-c79b-419c-a78a-024c0bf8a736.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/autodrive_devkit/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a61605b0-7189-446c-a65f-6e5f454617ce.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-a61605b0-7189-446c-a65f-6e5f454617ce.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/runtime-root/vscode-git-bb87d4f1ff.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-a61605b0-7189-446c-a65f-6e5f454617ce.sock', 'AMENT_PREFIX_PATH': '/home/autodrive_devkit/install/autodrive_roboracer:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/autodrive_devkit/build/ftg_algorithm', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/autodrive_devkit/build/ftg_algorithm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages:/home/autodrive_devkit/install/autodrive_roboracer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.608545] (-) TimerEvent: {}
+[1.709116] (-) TimerEvent: {}
+[1.809719] (-) TimerEvent: {}
+[1.910445] (-) TimerEvent: {}
+[1.921305] (ftg_algorithm) StdoutLine: {'line': b'running egg_info\n'}
+[1.922416] (ftg_algorithm) StdoutLine: {'line': b'creating ../../build/ftg_algorithm/ftg_algorithm.egg-info\n'}
+[1.922759] (ftg_algorithm) StdoutLine: {'line': b'writing ../../build/ftg_algorithm/ftg_algorithm.egg-info/PKG-INFO\n'}
+[1.923144] (ftg_algorithm) StdoutLine: {'line': b'writing dependency_links to ../../build/ftg_algorithm/ftg_algorithm.egg-info/dependency_links.txt\n'}
+[1.923468] (ftg_algorithm) StdoutLine: {'line': b'writing entry points to ../../build/ftg_algorithm/ftg_algorithm.egg-info/entry_points.txt\n'}
+[1.923813] (ftg_algorithm) StdoutLine: {'line': b'writing requirements to ../../build/ftg_algorithm/ftg_algorithm.egg-info/requires.txt\n'}
+[1.924057] (ftg_algorithm) StdoutLine: {'line': b'writing top-level names to ../../build/ftg_algorithm/ftg_algorithm.egg-info/top_level.txt\n'}
+[1.924229] (ftg_algorithm) StdoutLine: {'line': b"writing manifest file '../../build/ftg_algorithm/ftg_algorithm.egg-info/SOURCES.txt'\n"}
+[1.927793] (ftg_algorithm) StdoutLine: {'line': b"reading manifest file '../../build/ftg_algorithm/ftg_algorithm.egg-info/SOURCES.txt'\n"}
+[1.930181] (ftg_algorithm) StdoutLine: {'line': b"writing manifest file '../../build/ftg_algorithm/ftg_algorithm.egg-info/SOURCES.txt'\n"}
+[1.930960] (ftg_algorithm) StdoutLine: {'line': b'running build\n'}
+[1.931200] (ftg_algorithm) StdoutLine: {'line': b'running build_py\n'}
+[1.931400] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/ftg_algorithm/build\n'}
+[1.933629] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/ftg_algorithm/build/lib\n'}
+[1.934121] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/ftg_algorithm/build/lib/ftg_algorithm\n'}
+[1.934365] (ftg_algorithm) StdoutLine: {'line': b'copying ftg_algorithm/controller_node.py -> /home/autodrive_devkit/build/ftg_algorithm/build/lib/ftg_algorithm\n'}
+[1.934568] (ftg_algorithm) StdoutLine: {'line': b'copying ftg_algorithm/__init__.py -> /home/autodrive_devkit/build/ftg_algorithm/build/lib/ftg_algorithm\n'}
+[1.934773] (ftg_algorithm) StdoutLine: {'line': b'running install\n'}
+[1.934958] (ftg_algorithm) StdoutLine: {'line': b'running install_lib\n'}
+[1.935142] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages/ftg_algorithm\n'}
+[1.935322] (ftg_algorithm) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/ftg_algorithm/build/lib/ftg_algorithm/controller_node.py -> /home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages/ftg_algorithm\n'}
+[1.935634] (ftg_algorithm) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/ftg_algorithm/build/lib/ftg_algorithm/__init__.py -> /home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages/ftg_algorithm\n'}
+[1.935912] (ftg_algorithm) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages/ftg_algorithm/controller_node.py to controller_node.cpython-310.pyc\n'}
+[1.939260] (ftg_algorithm) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages/ftg_algorithm/__init__.py to __init__.cpython-310.pyc\n'}
+[1.939976] (ftg_algorithm) StdoutLine: {'line': b'running install_data\n'}
+[1.940188] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/ftg_algorithm/share/ament_index\n'}
+[1.940379] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/ftg_algorithm/share/ament_index/resource_index\n'}
+[1.940574] (ftg_algorithm) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/ftg_algorithm/share/ament_index/resource_index/packages\n'}
+[1.940892] (ftg_algorithm) StdoutLine: {'line': b'copying resource/ftg_algorithm -> /home/autodrive_devkit/install/ftg_algorithm/share/ament_index/resource_index/packages\n'}
+[1.941101] (ftg_algorithm) StdoutLine: {'line': b'copying package.xml -> /home/autodrive_devkit/install/ftg_algorithm/share/ftg_algorithm\n'}
+[1.941289] (ftg_algorithm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.944824] (ftg_algorithm) StdoutLine: {'line': b'Copying ../../build/ftg_algorithm/ftg_algorithm.egg-info to /home/autodrive_devkit/install/ftg_algorithm/lib/python3.10/site-packages/ftg_algorithm-0.0.0-py3.10.egg-info\n'}
+[1.946432] (ftg_algorithm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.988436] (ftg_algorithm) StdoutLine: {'line': b'Installing controller_node script to /home/autodrive_devkit/install/ftg_algorithm/lib/ftg_algorithm\n'}
+[1.989447] (ftg_algorithm) StdoutLine: {'line': b"writing list of installed files to '/home/autodrive_devkit/build/ftg_algorithm/install.log'\n"}
+[2.010582] (-) TimerEvent: {}
+[2.036223] (ftg_algorithm) CommandEnded: {'returncode': 0}
+[2.070786] (ftg_algorithm) JobEnded: {'identifier': 'ftg_algorithm', 'rc': 0}
+[2.072883] (-) EventReactorShutdown: {}
