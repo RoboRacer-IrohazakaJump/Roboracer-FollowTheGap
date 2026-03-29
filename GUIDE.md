@@ -60,6 +60,9 @@ source install/setup.bash
 ```
 ros2 run algo_name controller_node
 ```
+# Automate Running
+To automate your algorithm, so that when you hit the connection button, the vehicle runs right after the status becomes `Connected!`, you can edit the `autodrive_devkit.sh` in `/home` directory as can be seen in [here](autodrive_devkit.sh).
+
 ## References
 If you ever encounter any error, or the information of the vehicle, sensors, etc., please refer to the following references:
 1. [Technical Guide: Vehicle, Softwares, etc.](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025/)
