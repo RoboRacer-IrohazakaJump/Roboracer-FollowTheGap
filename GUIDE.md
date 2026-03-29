@@ -32,3 +32,31 @@ docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --netw
 ros2 launch autodrive_roboracer bringup_graphics.launch.py
 ```
 If you run both containers on the same machine, just hit the `connection` button in the simulator GUI menu panel, then the status next to it will become `Connected!`. Once the connection has been established, you can choose between `Manual` and `Autonomous` driving modes for the `Driving Mode`.
+
+# Implement Different Algorithm
+If you want to implement different algorithm, pull the AutoDRIVE devkit docker image, then:
+1. Navigate to `src` directory in the docker, and then create package:
+```
+ros2 pkg create --build-type ament_python algo_name
+```
+2. Natigate to `algo_name/algo_name` and create and python file to write your algorithm. Additionally, make sure there is `__init__.py` in that directory.
+3. Next, you need to add an entry point / nodes within the `console_scripts` brackets of the `entry_points` field in `src/algo_name/setup.py` file. For example:
+```
+entry_points={
+    'console_scripts': [
+        'controller_node = algo_name.controller_node:main',
+    ],
+}
+```
+4. Back to `/home/autodrive_devkit`, build your package
+```
+colcon build --packages-select algo_name
+```
+5. Next, source the setup files
+```
+source install/setup.bash
+```
+6. Finally, you can try out your algorithm by executing:
+```
+ros2 run algo_name controller_node
+```
