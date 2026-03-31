@@ -27,7 +27,7 @@ docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --netw
 ```
 ./AutoDRIVE\ Simulator.x86_64
 ```
-3. Launch AutoDRIVE Devkit in `graphics` mode (RViz rendering will be enabled)
+2. Launch AutoDRIVE Devkit in `graphics` mode (RViz rendering will be enabled)
 ```
 ros2 launch autodrive_roboracer bringup_graphics.launch.py
 ```
