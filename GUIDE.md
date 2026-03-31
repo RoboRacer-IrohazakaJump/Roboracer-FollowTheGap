@@ -67,4 +67,4 @@ To automate your algorithm, so that when you hit the connection button, the vehi
 If you ever encounter any error, or the information of the vehicle, sensors, etc., please refer to the following references:
 1. [Technical Guide: Vehicle, Softwares, etc.](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025/)
 2. [ROS2 Tutorial - Packages, Nodes, Communications](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
-3. If you wonder about how the messsage from each sensor looks like, you search it on google. For example, "LaserScan ROS2": [LaserScan](https://docs.ros2.org/foxy/api/sensor_msgs/msg/LaserScan.html)
+3. If you wonder about how the messsage from each sensor looks like, you can search it on google. For example, "LaserScan ROS2": [LaserScan](https://docs.ros2.org/foxy/api/sensor_msgs/msg/LaserScan.html)
