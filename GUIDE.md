@@ -17,7 +17,7 @@ docker pull hatsuharuyasa/autodrive_submission:phase-1
 xhost local:root
 docker run --name autodrive_roboracer_sim --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_sim:2025-cdc-tf-practice
 ```
-3. Enable display forwarding for devkit, and run the devkit container at `entrypoint`
+2. Enable display forwarding for devkit, and run the devkit container at `entrypoint`
 ```
 xhost local:root
 docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env DISPLAY --privileged --gpus all hatsuharuyasa/autodrive_submission:phase-1
